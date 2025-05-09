@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  ros2-turtlesim:
+    build: .
+    ports:
+      - "6080:8080"
+    container_name: ros2-turtlesim-vnc

@@ -118,7 +118,7 @@ Now, using a text editor, inside the container you can write move_turtle.py with
 ```sh
 cd ros2_ws && colcon build
 source install/setup.bash
-ros2 run turtle_controller turtles_launch.py
+ros2 launch turtle_controller turtles_launch.py
 ```
 
 ## LICENSE

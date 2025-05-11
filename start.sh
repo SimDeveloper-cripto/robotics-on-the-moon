@@ -18,6 +18,7 @@ sleep 2
 websockify --web=/opt/novnc 8080 localhost:5900
 
 # TODO
+# Understand how the python files cooperate one other
 # Create a GRID MAP
 # Add obstacles
 # Apply A* or RRT*
